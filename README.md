@@ -24,7 +24,12 @@
 · ^/api|h:name => 所有以 api 开头，请求头部数据包含 name 的请求
 · ^/api|c:id\= => 所有以 api 开头，Cookies 包含 id 字段的请求
 
- 
+## 使用
+### 网关系统：
+· 根目录下 MuTan.Gateway.json 为系统配置文件，修改 SYS_PORT 参数，可以更改网关默认端口
+· 第一次使用根目录下生成 _manager.json 中记录了管理账号与密码，管理账号唯一，只能使用此账号才能管理网关
+### 管理后台：
+· src/config/system.js 下 Server 参数修改为你自己网关系统访问地址
 
 ## 开发环境
 · 网关系统：VB.Net

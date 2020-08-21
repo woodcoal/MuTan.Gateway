@@ -1,0 +1,14 @@
+{
+  "SYS_HOST": "",
+  "SYS_PORT": 80,
+  "SYS_SSL": false,
+  "SYS_SSL_PORT": 443,
+  "SYS_SSL_FILE": "",
+  "SYS_SSL_PASSWORD": "",
+  "SYS_LOG_LEVEL": 8,
+  "SYS_LOG_CONSOLE": true,
+  "SYS_LOG_SAVE": true,
+  "SYS_LOG_STACKTRACE": true,
+  "SYS_LOG_SIZE": 10000,
+  "SYS_STATISTICS": true
+}

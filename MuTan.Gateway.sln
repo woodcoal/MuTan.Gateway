@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "MuTan.Gateway", "MuTan.Gateway\MuTan.Gateway.vbproj", "{377C96E7-539E-4A38-B259-00A491032517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{377C96E7-539E-4A38-B259-00A491032517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377C96E7-539E-4A38-B259-00A491032517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377C96E7-539E-4A38-B259-00A491032517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377C96E7-539E-4A38-B259-00A491032517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {D8E536CD-39F8-4096-BD9F-1F88B45013F0}
+	EndGlobalSection
+EndGlobal

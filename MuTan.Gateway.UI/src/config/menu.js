@@ -1,0 +1,37 @@
+export default [{
+	title: "首页",
+	nav: "/",
+	icon: "dashboard"
+}, {
+	title: "服务器",
+	nav: "/server",
+	icon: "cloud-server"
+}, {
+	title: "路由",
+	nav: "/route",
+	icon: "cluster"
+}, {
+	title: "缓存",
+	nav: "/cache",
+	icon: "cloud-sync"
+}, {
+	title: "跳转",
+	nav: "/rewrite",
+	icon: "deployment-unit"
+}, {
+	title: "插件",
+	nav: "/plugin",
+	icon: "api"
+}, {
+	title: "客户端",
+	nav: "/client",
+	icon: "rocket"
+}, {
+	title: "日志",
+	nav: "/log",
+	icon: "file-done"
+}, {
+	title: "设置",
+	nav: "/config",
+	icon: "control"
+}]
