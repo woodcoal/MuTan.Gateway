@@ -34,8 +34,11 @@
 ## 开发环境
 · 网关系统：VB.Net
 · 管理后台：Antd Vue
-· 如果需要了解 Bumblebee API 网关请移步：https://github.com/IKende/Bumblebee
-· 如果想简化 VUE 开发，减少参数设置，对于初学者建议熟悉 hey-cli，具体请移步：https://github.com/heyui/hey-cli
+· 数据库：LiteDB
+· 如果需要了解 Bumblebee API 网关请移步：https://github.com/IKende/Bumblebee 
+· 如果想简化 VUE 开发，减少参数设置，对于初学者建议熟悉 hey-cli，具体请移步：https://github.com/heyui/hey-cli 
+· 对于开源嵌入式 NoSQL 文档数据库 LiteDB 想了解具体使用，请参考：https://github.com/mbdavid/LiteDB 
+· 考虑到 .Net Core 2.x 周期问题，而且发布方便问题，本系统直接升级到了 .Net Core 3.1，Bumblebee 原系统使用的是 .Net Core 2.1，如果需要继续使用 .Net Core 2.1 请修改属性，代码无需修改，无缝切换。
 
 
 ## 补充说明
