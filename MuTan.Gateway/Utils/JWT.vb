@@ -54,7 +54,7 @@ Namespace Utils
 				Me.TokenValidation.ValidAudience = Me.Audience
 			End If
 
-			If Not String.IsNullOrWhiteSpace(key) Then key = Guid.NewGuid.ToString
+			If String.IsNullOrWhiteSpace(key) Then key = Guid.NewGuid.ToString
 			Dim SecurityKey = New SymmetricSecurityKey(Text.Encoding.UTF8.GetBytes(key))
 			Me.TokenValidation.IssuerSigningKey = SecurityKey
 			Me.SigningCredentials = New SigningCredentials(SecurityKey, "HS256")
